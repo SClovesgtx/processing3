@@ -22,8 +22,14 @@
 //fill(#D63C3C);
 //ellipse(200,200,100,100);
 
-size(500, 500);
-background(255);
+//size(500, 500);
+//background(255);
+//noStroke();
+//fill(255, 60, 60, 80);
+//ellipse(200,200,100,100);
+
+size(512, 512, P3D);
 noStroke();
-fill(255, 60, 60, 80);
-ellipse(200,200,100,100);
+lights();
+translate(58, 48, 0);
+sphere(28);

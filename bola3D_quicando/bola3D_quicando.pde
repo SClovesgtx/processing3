@@ -28,9 +28,9 @@ void draw(){
     velocity.y = -1 * velocity.y;
   }
   
-  
-  stroke(0);
   fill(200);
-  ellipse(location.x, location.y, 50, 50);
+  noStroke();
+  lights();
+  translate(location.x, location.y, 0);
   sphere(50);
 }
